@@ -1,0 +1,86 @@
+.filters {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--shadow, 0 1px 3px rgba(0,0,0,.12));
+  margin-bottom: 24px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gray-900, #111827);
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 0;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gray-500, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
+}
+
+.field select {
+  font-size: 14px;
+}
+
+.fileList {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--gray-200, #e5e7eb);
+}
+
+.fileLabel {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gray-500, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+
+.fileOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fileBtn {
+  background: var(--gray-100, #f3f4f6);
+  color: var(--gray-700, #374151);
+  border: 1px solid var(--gray-200, #e5e7eb);
+  padding: 8px 14px;
+  font-size: 13px;
+  border-radius: 6px;
+  transition: all 0.15s;
+}
+
+.fileBtn:hover {
+  background: var(--primary-light, #dbeafe);
+  border-color: var(--primary, #1d4ed8);
+  color: var(--primary, #1d4ed8);
+}
+
+.fileBtn.active {
+  background: var(--primary, #1d4ed8);
+  color: #fff;
+  border-color: var(--primary, #1d4ed8);
+}
+
+.noFiles {
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--gray-500, #6b7280);
+  font-style: italic;
+}

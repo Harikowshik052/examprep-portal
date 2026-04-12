@@ -1,0 +1,76 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid var(--gray-200, #e5e7eb);
+  box-shadow: var(--shadow, 0 1px 3px rgba(0,0,0,.08));
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--primary, #1d4ed8);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.chatbotBtn {
+  background: var(--primary, #1d4ed8);
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chatbotBtn:hover {
+  background: var(--primary-hover, #1e40af);
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.emailBadge {
+  font-size: 12px;
+  color: var(--gray-500, #6b7280);
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.logoutBtn {
+  background: var(--gray-100, #f3f4f6);
+  color: var(--gray-700, #374151);
+  border: 1px solid var(--gray-200, #e5e7eb);
+  padding: 6px 14px;
+  font-size: 13px;
+}
+
+.logoutBtn:hover {
+  background: var(--danger-light, #fee2e2);
+  color: var(--danger, #dc2626);
+  border-color: #fca5a5;
+}

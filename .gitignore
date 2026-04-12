@@ -1,0 +1,32 @@
+# ── Environment variables (NEVER commit these) ──────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Build output ─────────────────────────────────────────────────────────────
+frontend/dist/
+frontend/dist-ssr/
+
+# ── Generated at build time (recreated by generate-manifest.cjs) ─────────────
+frontend/public/data/manifest.json
+
+# ── OS / Editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/*
+!.vscode/extensions.json
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
